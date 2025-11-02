@@ -1,4 +1,5 @@
-# Keyboard Layout Switcher | מחליף פריסת מקלדת
+# KeyFlip
+**תוסף דפדפן לתיקון והמרת פריסת מקלדת**
 
 **Choose your language | בחר שפה:**
 - [English](#english) 🇬🇧
@@ -9,7 +10,7 @@
 ## English
 
 ### Overview
-**Keyboard Layout Switcher** is a simple and efficient browser extension that converts text typed in the wrong keyboard layout between **Hebrew** and **English**.  
+**KeyFlip** is a simple and efficient browser extension that converts text typed in the wrong keyboard layout between **Hebrew** and **English**.  
 Press **Ctrl + Alt** to instantly fix your text based on keyboard mapping, not translation.
 
 ## Features
@@ -28,16 +29,17 @@ Press **Ctrl + Alt** to instantly fix your text based on keyboard mapping, not t
    - Press **Ctrl + Alt** without selecting anything → The whole input is converted.  
 3. The text instantly flips between Hebrew and English according to the key positions.
 
-## Example
+### Example
 | Typed (wrong layout) | After pressing Ctrl + Alt |  
 |----------------------|---------------------------|  
 | `tvki` (English layout) | `אהלן` |  
-| `שפפךם` (Hebrew layout) | `applo` |  
+| `שפפךש` (Hebrew layout) | `applo` |  
+| `,nup` (English layout) | `שלום` |
 
-## Installation Guide
+### Installation Guide
 
-### Desktop (Chrome / Edge / Brave / Opera)
-1. Download and unzip `keyboard-layout-switcher.zip`.  
+#### Desktop (Chrome / Edge / Brave / Opera)
+1. Download and unzip `keyflip.zip` (or `keyboard-layout-switcher.zip`).  
 2. Open your browser and go to:  
    ```
    chrome://extensions/
@@ -69,26 +71,27 @@ Created by **Lidan**, software engineer and creator of tools designed to make ty
 <div dir="rtl">
 
 ### מה זה?
-**מחליף פריסת מקלדת** הוא תוסף דפדפן שפותר בעיה מעצבנת שכולנו מכירים - הקלדה בשפה הלא נכונה.  
+**KeyFlip** הוא תוסף דפדפן פשוט ויעיל שפותר בעיה מעצבנת שכולנו מכירים: הקלדה בפריסת המקלדת הלא נכונה.
+
 שכחתם לעבור לעברית והקלדתם `akuo` במקום "שלום"? לחצו **Ctrl + Alt** והטקסט מתוקן מיידית.
 
-התוסף לא מתרגם - הוא ממיר את האותיות לפי המיקום שלהן על המקלדת.
+**חשוב:** התוסף לא מתרגם, אלא ממיר את האותיות בדיוק לפי המיקום הפיזי שלהן על המקלדת (אנגלית ↔ עברית).
 
-### למה זה שימושי?
-- מתקן טקסט **מיידית** בלחיצת צירוף מקשים אחד
-- עובד בכל שדה טקסט באינטרנט - פייסבוק, ווטסאפ ווב, מיילים ועוד
-- **אפשר לבחור מה לתקן:**  
-  - סימנתם טקסט עם העכבר? רק הטקסט המסומן יומר  
-  - לא סימנתם כלום? כל התוכן בשדה יומר  
-- עובד לגמרי אופליין - אין איסוף מידע, אין חיבור לשרתים
-- התוסף לא פעיל בגוגל כי שם כבר יש פתרון מובנה
+### יכולות מרכזיות
+- **תיקון טקסט מיידי** בלחיצת קיצור המקשים **Ctrl + Alt**
+- עובד ברוב **שדות הקלט והטקסט באינטרנט** (טפסים, צ'אטים, מיילים ועוד)
+- **התנהגות חכמה:**  
+  - **בחירה סלקטיבית:** אם מסמנים טקסט ספציפי ולוחצים, רק הוא יומר  
+  - **הפעלה מלאה:** אם לא מסמנים כלום, לחיצה על הקיצור תמיר את כל הטקסט בשדה  
+- **פרטיות מלאה:** פועל לוקלית על הדפדפן, ללא איסוף מידע או צורך בחיבור אינטרנט
+- **מוכוון יעילות:** מושבת אוטומטית בחיפוש גוגל (שם קיים פתרון מובנה) למניעת כפילויות
 
 ### איך משתמשים?
-1. הקלדתם משהו בשפה הלא נכונה (למשל `tvki` במקום "אהלן")
-2. יש לכם שתי אפשרויות:  
-   - **סמנו את הטקסט** שרוצים לתקן ← לחצו **Ctrl + Alt**  
-   - **אל תסמנו כלום** ← לחצו **Ctrl + Alt** וכל השדה יתוקן  
-3. זהו! הטקסט מתחלף בין עברית לאנגלית לפי מיקום המקשים
+1. הקלדתם בפריסה הלא נכונה (למשל `tvki` במקום "אהלן")
+2. כדי לתקן:  
+   - **לתיקון חלקי:** סמנו את הטקסט הרצוי ולחצו **Ctrl + Alt**  
+   - **לתיקון מלא:** מקמו את הסמן בשדה (מבלי לסמן טקסט) ולחצו **Ctrl + Alt**  
+3. הטקסט יתחלף מיידית לפריסה הנכונה
 
 ### דוגמאות
 | מה הקלדתם | מה יצא אחרי Ctrl + Alt |  
@@ -99,29 +102,29 @@ Created by **Lidan**, software engineer and creator of tools designed to make ty
 
 ### איך מתקינים?
 
-#### כרום / אדג' / ברייב / אופרה
-1. הורידו את הקובץ `keyboard-layout-switcher.zip` וחלצו אותו
-2. היכנסו לכתובת:  
+#### דסקטופ (Chrome / Edge / Brave / Opera)
+1. הורידו וחלצו את הקובץ `keyflip.zip` (או `keyboard-layout-switcher.zip`)
+2. פתחו את הדפדפן והיכנסו לכתובת:  
    ```
    chrome://extensions/
    ```
-3. הפעילו **Developer mode** (למעלה מימין)
-4. לחצו על **Load unpacked**
-5. בחרו את התיקייה שחילצתם (זו שיש בה `manifest.json`)
-6. התוסף מותקן! אפשר להצמיד אותו לסרגל הכלים
+3. הפעילו **מצב מפתחים** (Developer mode) (בדרך כלל בפינה העליונה)
+4. לחצו על **טען תוסף שלא נארז** (Load unpacked)
+5. בחרו את התיקייה שחולצה (זו המכילה את קובץ `manifest.json`)
+6. התוסף יופיע ברשימה. מומלץ להצמיד אותו לסרגל הכלים לגישה מהירה
 
 ### מידע טכני
-- בנוי על Manifest V3
-- תומך בהמרה דו-כיוונית: עברית ⟷ אנגלית
-- נכתב ב-JavaScript טהור
-- דורש הרשאות מינימליות (`activeTab` ו-`scripting` בלבד)
+- **מניפסט:** גרסה 3
+- **שפות נתמכות:** המרה דו-כיוונית עברית ⟷ אנגלית
+- **טכנולוגיות:** JavaScript, HTML, CSS
+- **הרשאות:** `activeTab` ו-`scripting` (מינימליות הנדרשות לזיהוי ושינוי טקסט בלשונית הפעילה)
 
-### דברים שכדאי לדעת
-- בגוגל התוסף לא עובד כי יש שם פתרון דומה מובנה
-- באתרים מסוימים עם עורכי טקסט מורכבים (כמו Google Docs) אולי תצטרכו לרענן את הדף אחרי ההתקנה
+### מגבלות ודגשים
+- התוסף אינו פעיל בחיפוש גוגל, מכיוון שבאתר זה קיים פתרון מובנה לתיקון שפה
+- ביישומים כבדים עם עורכי טקסט מורכבים (כמו Google Docs), ייתכן שיידרש רענון דף לאחר התקנת התוסף
 
-### מי יצר את זה?
-**לידן** - מפתח תוכנה שאוהב לבנות כלים שעוזרים לאנשים להיות יותר יעילים.
+### יוצר
+**לידן** - מהנדס תוכנה ויוצר כלים שנועדו להפוך עבודה ופרודוקטיביות לחלקות ונוחות יותר.
 
 </div>
 
