@@ -1,6 +1,14 @@
-# Keyboard Layout Switcher
+# Keyboard Layout Switcher | מחליף פריסת מקלדת
 
-## Overview
+**Choose your language | בחר שפה:**
+- [English](#english) 🇬🇧
+- [עברית](#hebrew) 🇮🇱
+
+---
+
+## English
+
+### Overview
 **Keyboard Layout Switcher** is a simple and efficient browser extension that converts text typed in the wrong keyboard layout between **Hebrew** and **English**.  
 Press **Ctrl + Alt** to instantly fix your text based on keyboard mapping, not translation.
 
@@ -53,3 +61,67 @@ Press **Ctrl + Alt** to instantly fix your text based on keyboard mapping, not t
 
 ## Author
 Created by **Lidan**, software engineer and creator of tools designed to make typing and productivity smoother.
+
+---
+
+## Hebrew
+
+<div dir="rtl">
+
+### מה זה?
+**מחליף פריסת מקלדת** הוא תוסף דפדפן שפותר בעיה מעצבנת שכולנו מכירים - הקלדה בשפה הלא נכונה.  
+שכחתם לעבור לעברית והקלדתם `akuo` במקום "שלום"? לחצו **Ctrl + Alt** והטקסט מתוקן מיידית.
+
+התוסף לא מתרגם - הוא ממיר את האותיות לפי המיקום שלהן על המקלדת.
+
+### למה זה שימושי?
+- מתקן טקסט **מיידית** בלחיצת צירוף מקשים אחד
+- עובד בכל שדה טקסט באינטרנט - פייסבוק, ווטסאפ ווב, מיילים ועוד
+- **אפשר לבחור מה לתקן:**  
+  - סימנתם טקסט עם העכבר? רק הטקסט המסומן יומר  
+  - לא סימנתם כלום? כל התוכן בשדה יומר  
+- עובד לגמרי אופליין - אין איסוף מידע, אין חיבור לשרתים
+- התוסף לא פעיל בגוגל כי שם כבר יש פתרון מובנה
+
+### איך משתמשים?
+1. הקלדתם משהו בשפה הלא נכונה (למשל `tvki` במקום "אהלן")
+2. יש לכם שתי אפשרויות:  
+   - **סמנו את הטקסט** שרוצים לתקן ← לחצו **Ctrl + Alt**  
+   - **אל תסמנו כלום** ← לחצו **Ctrl + Alt** וכל השדה יתוקן  
+3. זהו! הטקסט מתחלף בין עברית לאנגלית לפי מיקום המקשים
+
+### דוגמאות
+| מה הקלדתם | מה יצא אחרי Ctrl + Alt |  
+|-----------|------------------------|  
+| `tvki` | `אהלן` |  
+| `שפפךש` | `applo` |  
+| `,nup` | `שלום` |
+
+### איך מתקינים?
+
+#### כרום / אדג' / ברייב / אופרה
+1. הורידו את הקובץ `keyboard-layout-switcher.zip` וחלצו אותו
+2. היכנסו לכתובת:  
+   ```
+   chrome://extensions/
+   ```
+3. הפעילו **Developer mode** (למעלה מימין)
+4. לחצו על **Load unpacked**
+5. בחרו את התיקייה שחילצתם (זו שיש בה `manifest.json`)
+6. התוסף מותקן! אפשר להצמיד אותו לסרגל הכלים
+
+### מידע טכני
+- בנוי על Manifest V3
+- תומך בהמרה דו-כיוונית: עברית ⟷ אנגלית
+- נכתב ב-JavaScript טהור
+- דורש הרשאות מינימליות (`activeTab` ו-`scripting` בלבד)
+
+### דברים שכדאי לדעת
+- בגוגל התוסף לא עובד כי יש שם פתרון דומה מובנה
+- באתרים מסוימים עם עורכי טקסט מורכבים (כמו Google Docs) אולי תצטרכו לרענן את הדף אחרי ההתקנה
+
+### מי יצר את זה?
+**לידן** - מפתח תוכנה שאוהב לבנות כלים שעוזרים לאנשים להיות יותר יעילים.
+
+</div>
+
