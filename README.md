@@ -14,7 +14,7 @@ Press **Ctrl + Alt** to instantly fix your text based on keyboard mapping, not t
 - Runs locally — no data collection, no internet access required.
 
 ## How It Works
-1. Type something in the wrong layout (for example, `vka rnt` instead of "שלום").  
+1. Type something in the wrong layout (for example, `akuo` instead of "שלום").  
 2. To fix it:  
    - Select a part of the text and press **Ctrl + Alt** → Only that part is converted.  
    - Press **Ctrl + Alt** without selecting anything → The whole input is converted.  
@@ -23,7 +23,7 @@ Press **Ctrl + Alt** to instantly fix your text based on keyboard mapping, not t
 ## Example
 | Typed (wrong layout) | After pressing Ctrl + Alt |  
 |----------------------|---------------------------|  
-| `ahalan` (English layout) | `אהלן` |  
+| `tvki` (English layout) | `אהלן` |  
 | `שדגש` (Hebrew layout) | `applo` |  
 
 ## Installation Guide
@@ -38,17 +38,6 @@ Press **Ctrl + Alt** to instantly fix your text based on keyboard mapping, not t
 4. Click **Load unpacked**.  
 5. Select the unzipped folder (the one containing `manifest.json`).  
 6. The extension will appear in your extensions list — you can pin it to the toolbar.
-
-### Android (Kiwi Browser)
-1. Open **Kiwi Browser**.  
-2. Go to:  
-   ```
-   chrome://extensions/
-   ```
-3. Enable **Developer mode**.  
-4. Tap **Load (Unpacked)**.  
-5. Choose the unzipped folder containing the extension.  
-6. Use the same **Ctrl + Alt** shortcut (if supported by your keyboard).
 
 ## Technical Details
 - **Manifest version:** 3  
