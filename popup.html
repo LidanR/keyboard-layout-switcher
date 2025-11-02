@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Keyboard Layout Switcher</title>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    /* Fallback minimal styles if CSS fails to load */
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; }
+  </style>
+  </head>
+<body>
+  <div class="popup">
+    <div class="header">
+      <div class="icon">⌨️</div>
+      <div class="titles">
+        <div class="name">Keyboard Layout Switcher</div>
+        <div class="desc">Fix wrong layout text (Ctrl+Alt)</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <label class="switch">
+        <input type="checkbox" id="enabledToggle" />
+        <span class="slider"></span>
+      </label>
+      <div class="switch-label">
+        <div class="label-title">Enabled</div>
+        <div class="label-sub">Toggle conversion on this browser</div>
+      </div>
+    </div>
+
+    <div class="hint">
+      Press <kbd>Ctrl</kbd>+<kbd>Alt</kbd> to convert selected text or current input.
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
