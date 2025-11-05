@@ -32,9 +32,9 @@ Press **Ctrl + Alt** to instantly fix your text based on keyboard mapping, not t
 ### Example
 | Typed (wrong layout) | After pressing Ctrl + Alt |  
 |----------------------|---------------------------|  
-| `tvki` (English layout) | `אהלן` |  
-| `שפפךש` (Hebrew layout) | `applo` |  
-| `,nup` (English layout) | `שלום` |
+| `n,i`  | `מתן` |  
+| `zv`  | `זה` |  
+| `cachkl`  | `בשבילך` |
 
 ### Installation Guide
 
@@ -95,11 +95,10 @@ Created by **Lidan**, software engineer and creator of tools designed to make ty
 
 ### דוגמאות
 | מה הקלדתם | מה יצא אחרי Ctrl + Alt |  
-|-----------|------------------------|  
-| `tvki` | `אהלן` |  
-| `שפפךש` | `applo` |  
-| `,nup` | `שלום` |
-
+|----------------------|---------------------------|  
+| `n,i`  | `מתן` |  
+| `zv`  | `זה` |  
+| `cachkl`  | `בשבילך` |
 ### איך מתקינים?
 
 #### דסקטופ (Chrome / Edge / Brave / Opera)
